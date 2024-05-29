@@ -46,19 +46,16 @@ function List() {
                     <button onClick={agregarTarea}>Agregar</button>
                     <button onClick={borrarTodasLasTareas}>Borrar todas las tareas</button>
                 </div>
-                <div className="headLista">
-                    <div className="circulos"></div>
-                    <div className="circulos"></div>
-                    <div className="circulos"></div>
-                    <div className="circulos"></div>
-                    <div className="circulos"></div>
+                <div className='headLista2'>
+                    <div className='headLista3'></div>
                 </div>
+                <div className="headLista1"></div>
                 <div className="lista">
                     <ul>
                         {tareas.map((tarea, index) => (
                             <li key={index}>
-                                <span className="viñeta">•</span> {/* Viñeta */}
-                                <span className="textoTarea">{tarea}</span> {/* Texto de la tarea */}
+                                <span className="viñeta">•</span> 
+                                <span className="textoTarea">{tarea}</span>
                                 <span
                                     className="BotonEliminarTarea"
                                     onClick={() => eliminarTarea(index)}

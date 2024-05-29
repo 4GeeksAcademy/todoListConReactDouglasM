@@ -12,17 +12,17 @@
 }
 
 .lista {
-    width: 600px;
-    background-color: white;
-    text-align: left; 
-    min-height: 200px;
-    border-radius: 0px;
-    box-shadow: 5px 5px 7px #656565, 0px 0px 7px #ffffff;
-  }
-  
+  width: 600px;
+  background-color: white;
+  text-align: left;
+  min-height: 200px;
+  border-radius: 0px;
+  box-shadow: 5px 5px 7px #656565, 0px 0px 7px #ffffff;
+}
+
 
 ul {
-  list-style-type: none; 
+  list-style-type: none;
   padding: 0;
 }
 
@@ -32,10 +32,14 @@ li {
   justify-content: space-between;
   padding: 10px;
   font-size: x-large;
+  margin-top: 20px;
+  border-bottom: solid rgb(199, 239, 255);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .viñeta {
-  margin-right: 10px; 
+  margin-right: 10px;
   color: rgb(230, 14, 14);
   margin-left: 30px;
 }
@@ -97,6 +101,7 @@ input {
   color: #ccc;
   margin-left: 10px;
 }
+
 .circulos {
   width: 30px;
   height: 30px;
@@ -104,11 +109,35 @@ input {
   border-radius: 50%;
   margin: auto;
 }
-.headLista {
-  width: 600px;
-  height: 40px;
+
+.headLista1 {
+  width: 500px;
+  height: 50px;
   background-color: rgb(150, 150, 150);
   text-align: center;
   display: flex;
   justify-content: space-between;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-bottom: -20px;
+  z-index: 2;
+}
+
+.headLista2 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(150, 150, 150);
+  border-radius: 60px;
+  margin-bottom: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headLista3 {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
